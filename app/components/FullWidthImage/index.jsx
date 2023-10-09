@@ -64,7 +64,7 @@ function FullWidthImage() {
           of the #OutdoorLiving.
         </p>
       </div>
-      <img src="./images/full_width.jpg" ref={fullImage} />
+      <img src="./images/full_width.jpg" ref={fullImage} loading="lazy" />
     </section>
   );
 }

@@ -83,36 +83,43 @@ function Hero() {
           ref={(pic) => picsRef.current.push(pic)}
           src="./images/Photo_8.jpg"
           data-hidden
+          loading="lazy"
         />
         <img
           ref={(pic) => picsRef.current.push(pic)}
           src="./images/Photo12.jpg"
           data-hidden
+          loading="lazy"
         />
         <img
           ref={(pic) => picsRef.current.push(pic)}
           src="./images/Photo11.jpg"
           data-hidden
+          loading="lazy"
         />
         <img
           ref={(pic) => picsRef.current.push(pic)}
           src="./images/Photo14.jpg"
           data-hidden
+          loading="lazy"
         />
         <img
           ref={(pic) => picsRef.current.push(pic)}
           src="./images/Photo5.jpg"
           data-hidden
+          loading="lazy"
         />
         <img
           ref={(pic) => picsRef.current.push(pic)}
           src="./images/Photo17.jpg"
           data-hidden
+          loading="lazy"
         />
         <img
           ref={(pic) => picsRef.current.push(pic)}
           src="./images/fullwidth.jpg"
           data-hidden
+          loading="lazy"
         />
       </div>
     </section>
