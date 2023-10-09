@@ -1,0 +1,52 @@
+.join_us {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  /* padding: 24rem 0; */
+}
+
+.join_us__inner {
+  display: grid;
+  place-items: center;
+}
+
+.join_us__title {
+  max-width: 10ch;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.join_us__text {
+  opacity: 0.5;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 6.4rem;
+}
+
+.mission {
+  display: inline-block;
+  position: relative;
+}
+
+.mission svg {
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+.button {
+  border: none;
+  background-color: black;
+  padding: 1.6rem 4.8rem;
+  font-size: 3rem;
+  color: white;
+  border-radius: 8px;
+  font-family: inherit;
+  letter-spacing: -0.01em;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.548);
+}
